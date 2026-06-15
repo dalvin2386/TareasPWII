@@ -1,0 +1,22 @@
+.main {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.content section {
+  flex: 1;
+  max-width: 350px;
+}
+
+.content section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

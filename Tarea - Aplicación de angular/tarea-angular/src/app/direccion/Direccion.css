@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+}
+
+.direccion {
+  flex: 1;
+  padding: 1em;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 8px;
+}

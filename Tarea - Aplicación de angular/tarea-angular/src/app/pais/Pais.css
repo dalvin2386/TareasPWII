@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+}
+
+.pais {
+  flex: 1;
+  padding: 1em;
+  background-color: lightcoral;
+  color: black;
+  border-radius: 8px;
+}

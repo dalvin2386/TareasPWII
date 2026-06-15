@@ -1,0 +1,28 @@
+<main class="main">
+  <div class="content">
+    <h1>Datos Demográficos</h1>
+
+    <section>
+      <h2>Personas</h2>
+      @for (personales of persona; track $index) {
+        <app-dpersonales [datosPersonales]="personales" />
+      }
+    </section>
+
+    <section>
+      <h2>Direcciones</h2>
+      @for (direccion of direccion; track $index) {
+        <app-direccion [direccion]="direccion" />
+      }
+    </section>
+
+    <section>
+      <h2>Países</h2>
+      @for (pais of pais; track $index) {
+        <app-pais [pais]="pais" />
+      }
+    </section>
+  </div>
+</main>
+
+<router-outlet />

@@ -1,0 +1,7 @@
+export interface IDPersonales {
+    id: number;
+    nombre: string;
+    apellido: string;
+    edad: number;  
+    
+}

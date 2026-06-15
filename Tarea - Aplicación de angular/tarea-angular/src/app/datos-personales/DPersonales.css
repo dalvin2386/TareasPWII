@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+}
+
+.datos-personales {
+  flex: 1;
+  padding: 1em;
+  background-color: lightblue;
+  color: black;
+  border-radius: 8px;
+}
